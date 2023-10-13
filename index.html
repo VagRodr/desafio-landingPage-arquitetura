@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>ArquiterurArte</title>
+</head>
+<body>
+    <!--Menu Superior-->
+    <div id="menuSuperior">
+        <h1 id="tituloMenuSuperior">Tradição em projetos de arquitetura</h1><br>
+        <p id="textoMenuSuperior">Arquitetura residencial e comercial.</p>
+    </div>
+
+    <!--Menu Informacional-->
+    <div id="menuInformacional">
+        <img class="icone" src="./img/empreendimentos.svg" alt="">
+        <img class="icone" src="./img/experiencia.svg" alt="">
+        <img class="icone" src="./img/projetos.svg" alt="">
+    </div>
+
+    <!--Informações-->
+    <div id="informacoes">
+        <div id="textoInformacoes">
+            <h1 id="tituloInformacoes">Arquitetos com História e Experiência</h1>
+            <p id="paragrafoInformacoes">Nós realizamos desde 2002 projetos e gerenciamento de obras.<br> 
+            Com mais de 800 projetos e 2.000.000 de m² construídos, tendo<br>
+            como principal proposta transformar em realidade os sonhos de<br>
+            seus clientes, criando projetos personalizados, unindo a tradição<br>
+            e a modernidade em nossos projetos.</p>
+        </div>
+        
+        <img id="imagem" src="./img/img1.svg" alt="">
+    </div>
+    <!--Formulário-->
+    <div id="formulario">
+        <h2 id="tituloFormulario">Conheça mais sobre nossos serviços:</h2>
+        <form action="https://api.sheetmonkey.io/form/jBae5KXF5LDgG4ixomf5yk" method="post">
+            <input id="nome" type="text" placeholder="Nome" name="Name" required><br>
+            <input id="email" type="email" placeholder="Email" name="Email" required><br>
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+            <button onclick="alerta()" type="submit" >Fale Conosco</button>
+        </form>
+    </div>
+   <script src="./JS/index.js"></script>
+</body>
+</html>
